@@ -73,6 +73,20 @@ arduino-color-memory/
 ```
 ---
 
+## How to Run
+
+1. Open `memoryGame.ino` in the **Arduino IDE**.
+2. Ensure `WaveshareLCD.h` is located in the same directory as `memoryGame.ino` 
+3. Verify the I2C address in `WaveshareLCD.h` matches your module:
+   ```cpp
+   #define LCD_ADDR 0x3E  // Default Waveshare address (change to 0x27 if needed)
+   ```
+4. Select your Board (e.g., **Arduino Uno**) under **Tools > Board**.
+5. Select your COM port under **Tools > Port**.
+6. Click **Upload**.
+
+---
+
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
