@@ -68,7 +68,7 @@ The LCD screen will guide you through the game states:
 ```text
 arduino-color-memory/
 ├── WaveshareLCD.h      # Custom driver header for the Waveshare 1602 display (AiP31068)
-├── ColorMemory.ino     # Main sketch / State Machine & hardware logic
+├── memoryGame.ino     # Main sketch / State Machine & hardware logic
 └── README.md           # Project documentation
 ```
 ---
