@@ -59,7 +59,7 @@ The LCD screen will guide you through the game states:
 - **Yellow LED:** Positive leg to Pin **7**. Negative leg through a resistor to **GND**.
 - **Green LED:** Positive leg to Pin **9**. Negative leg through a resistor to **GND**.
 - **Blue LED:** Positive leg to Pin **11**. Negative leg through a resistor to **GND**.
-- **Passive Buzzer:** Positive leg to Pin **13**. Negative leg to **GND**.
+- **Buzzer:** Positive leg to Pin **13**. Negative leg to **GND**.
 
 ---
 
